@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tienda-web/static/css/main.feb2d6b3.css",
+    "main.js": "/Tienda-web/static/js/main.ae2a00fc.js",
+    "index.html": "/Tienda-web/index.html",
+    "main.feb2d6b3.css.map": "/Tienda-web/static/css/main.feb2d6b3.css.map",
+    "main.ae2a00fc.js.map": "/Tienda-web/static/js/main.ae2a00fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feb2d6b3.css",
+    "static/js/main.ae2a00fc.js"
+  ]
+}
