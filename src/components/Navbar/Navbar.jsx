@@ -26,7 +26,7 @@ const Navbar = ({ onNavigate, activeSection, categories, onCategoryFilter }) => 
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo" onClick={() => handleNavigation('home')}>
-          👕 Fashion Store
+          STYLE COOLL
         </div>
 
         {/* Botón hamburguesa para móvil */}

@@ -1,21 +1,25 @@
 .cart {
     background: white;
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(255, 20, 147, 0.15);
     position: sticky;
     top: 2rem;
+    border: 2px solid #ff69b4;
 }
 
 .cart h3 {
     margin-bottom: 1.5rem;
-    color: #333;
+    color: #ff1493;
     font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .empty-cart {
     text-align: center;
-    color: #666;
+    color: #999;
     font-style: italic;
     padding: 2rem 0;
 }
@@ -29,7 +33,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ffe6f2;
 }
 
 .cart-item:last-child {
@@ -47,8 +51,9 @@
 }
 
 .item-quantity {
-    color: #666;
+    color: #ff1493;
     font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .item-price {
@@ -56,45 +61,58 @@
     align-items: center;
     gap: 1rem;
     font-weight: bold;
-    color: #e74c3c;
+    color: #ff1493;
 }
 
 .remove-btn {
-    background: #e74c3c;
+    background: #ff1493;
     color: white;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+    background: #c71585;
+    transform: scale(1.1);
 }
 
 .cart-total {
     text-align: right;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #ff69b4;
+    color: #ff1493;
+    font-weight: 900;
 }
 
 .whatsapp-order-btn {
     display: block;
-    background: #25d366;
+    background: linear-gradient(135deg, #25d366, #128c7e);
     color: white;
     text-align: center;
-    padding: 1rem;
-    border-radius: 8px;
+    padding: 1.2rem;
+    border-radius: 50px;
     text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
 }
 
 .whatsapp-order-btn:hover {
-    background: #128c7e;
+    background: linear-gradient(135deg, #128c7e, #25d366);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
 @media (max-width: 768px) {
